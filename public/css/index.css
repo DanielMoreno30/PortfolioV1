@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.textosproyectos {
+  background: rgba(0, 0, 0, .5);
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.imgrecomercem {
+  opacity: 0.5;
+}
+
+.imgrecomercem:hover {
+  opacity: 1.0;
+}
+
+.imgportesobertes{
+  opacity: 0.5;
+}
+
+.imgportesobertes:hover {
+  opacity: 1.0;
+}
+
+.imgbroggi2021{
+  opacity: 0.5;
+}
+
+.imgbroggi2021:hover {
+  opacity: 1.0;
+}
+
+.imgbroggi2022{
+  opacity: 0.5;
+}
+
+.imgbroggi2022:hover {
+  opacity: 1.0;
+}
+
+.banderas {
+	overflow: hidden;
+	margin: 0 auto;
+}
+   
+.banderas img {
+
+	transition: 0.5s all ease-in-out;
+}
+   
+.banderas:hover img {
+	transform: scale(1.2);
+}
+
+#btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+  }
+  
+  .text {
+	background-color: #00A2FF;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+  }
+  
+  .hardskills {
+	margin-right: 5px;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #221f28;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
